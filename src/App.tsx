@@ -10,7 +10,7 @@ function App() {
     return (
         <div>
             <Router>
-                <MyNav title="Strivestaurant" />
+                <MyNav title="Strivesturant" />
                 <Route exact path="/" render={routeProps => <Home {...routeProps} title="Strivestaurant" />} />
                 <Route path="/reservations" component={Reservations} />
                 <Route path="/menu" component={Menu} />
