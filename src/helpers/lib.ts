@@ -1,3 +1,3 @@
-const upperName = (name: any) => name.toUpperCase()
+const upperName = (name: string) => name.toUpperCase()
 
 export default upperName
